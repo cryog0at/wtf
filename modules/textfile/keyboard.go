@@ -20,5 +20,5 @@ func (widget *Widget) initializeKeyboardControls() {
 
 func (widget *Widget) openFile() {
 	src := widget.CurrentSource()
-	utils.OpenFile(src)
+	utils.OpenFileWithEditor(src)
 }

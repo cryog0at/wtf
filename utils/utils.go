@@ -126,6 +126,22 @@ func OpenFile(path string) {
 	ExecuteCommand(cmd)
 }
 
+// OpenFile opens the file defined in `path` via the operating system
+func OpenFileWithEditor(path string) {
+
+	editor, err := os.LookupEnv("EDITOR")
+
+	if !err && editor != "" {
+		OpenFileUtil = editor
+	} else {
+		OpenFileUtil = "xdg-open"
+	}
+
+	filePath, _ := ExpandHomeDir(path)
+	cmd := exec.Command(OpenFileUtil, filePath)
+	ExecuteCommand(cmd)
+}
+
 // ReadFileBytes reads the contents of a file and returns those contents as a slice of bytes
 func ReadFileBytes(filePath string) ([]byte, error) {
 	fileData, err := ioutil.ReadFile(filepath.Clean(filePath))
