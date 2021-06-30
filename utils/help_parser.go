@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/wtfutil/wtf/cfg"
+	"github.com/cryog0at/wtf/cfg"
 )
 
 /* -------------------- Exported Functions -------------------- */

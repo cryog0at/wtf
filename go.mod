@@ -1,4 +1,4 @@
-module github.com/wtfutil/wtf
+module github.com/cryog0at/wtf
 
 go 1.16
 

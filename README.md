@@ -5,7 +5,7 @@
 <p align="center">
     <a href="#contributors"><img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-114-orange.svg?style=flat-square"></a>
     <a href="https://travis-ci.com/wtfutil/wtf"><img alt="Travis Status" src="https://img.shields.io/travis/com/wtfutil/wtf/master.svg?label=travis&maxAge=43200"></a>
-    <a href="https://goreportcard.com/report/github.com/wtfutil/wtf"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/wtfutil/wtf"></a>
+    <a href="https://goreportcard.com/report/github.com/cryog0at/wtf"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/cryog0at/wtf"></a>
     <a href="https://twitter.com/wtfutil"><img alt="Twitter" src="https://img.shields.io/badge/follow-on%20twitter-blue.svg"></a>
 </p>
 
@@ -77,7 +77,7 @@ wtfutil
 
 ### Installing a Binary
 
-[Download the latest binary](https://github.com/wtfutil/wtf/releases) from GitHub.
+[Download the latest binary](https://github.com/cryog0at/wtf/releases) from GitHub.
 
 WTF is a stand-alone binary. Once downloaded, copy it to a location you can run executables from (ie: `/usr/local/bin/`), and set the permissions accordingly:
 
@@ -101,8 +101,8 @@ export GOSUMDB=off
 # Enable Go modules
 export GO111MODULE=on
 
-go get -u github.com/wtfutil/wtf
-cd $GOPATH/src/github.com/wtfutil/wtf
+go get -u github.com/cryog0at/wtf
+cd $GOPATH/src/github.com/cryog0at/wtf
 make install
 make run
 ```
@@ -113,8 +113,8 @@ If you want to run the build command from a folder that is not in your `$GOPATH`
 # Set the Go proxy
 export GOPROXY="https://proxy.golang.org,direct"
 
-go get -u github.com/wtfutil/wtf
-cd $GOPATH/src/github.com/wtfutil/wtf
+go get -u github.com/cryog0at/wtf
+cd $GOPATH/src/github.com/cryog0at/wtf
 make install
 make run
 ```
@@ -215,7 +215,7 @@ Don't worry if you've never written Go before, or never contributed to an open s
 
 ## Contributing to the Documentation
 
-Documentation now lives in its own repository here: [https://github.com/wtfutil/wtfdocs](https://github.com/wtfutil/wtfdocs).
+Documentation now lives in its own repository here: [https://github.com/cryog0at/wtfdocs](https://github.com/cryog0at/wtfdocs).
 
 Please make all additions and updates to documentation in that repository.
 
