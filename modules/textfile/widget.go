@@ -11,10 +11,10 @@ import (
 	"github.com/alecthomas/chroma/formatters"
 	"github.com/alecthomas/chroma/lexers"
 	"github.com/alecthomas/chroma/styles"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
 	"github.com/radovskyb/watcher"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
 )
 
 const (

@@ -6,16 +6,16 @@ import (
 	"os"
 	"time"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/support"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/gdamore/tcell"
 	_ "github.com/gdamore/tcell/terminfo/extended"
 	"github.com/logrusorgru/aurora"
 	"github.com/olebedev/config"
 	"github.com/radovskyb/watcher"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/support"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 // WtfApp is the container for a collection of widgets that are all constructed from a single

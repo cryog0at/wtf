@@ -3,8 +3,8 @@ package gcal
 import (
 	"testing"
 
+	"github.com/cryog0at/wtf/cfg"
 	"github.com/stretchr/testify/assert"
-	"github.com/wtfutil/wtf/cfg"
 	"google.golang.org/api/calendar/v3"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 )
 
 func CurrentActiveItems(accessToken, assignedToName string, activeOnly bool) (*ActiveItems, error) {

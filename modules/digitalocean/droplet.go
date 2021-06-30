@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/cryog0at/wtf/utils"
 	"github.com/digitalocean/godo"
-	"github.com/wtfutil/wtf/utils"
 )
 
 // Droplet represents WTF's view of a DigitalOcean droplet

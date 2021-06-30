@@ -3,8 +3,8 @@ package todo_plus
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/utils"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
 )
 
 func (widget *Widget) content() (string, string, bool) {

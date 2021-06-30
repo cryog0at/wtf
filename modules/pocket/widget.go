@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/logger"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/logger"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
 	"gopkg.in/yaml.v2"
 )
 

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 const apiURI = "https://api.bamboohr.com/api/gateway.php"

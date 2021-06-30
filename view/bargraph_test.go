@@ -3,10 +3,10 @@ package view
 import (
 	"testing"
 
+	"github.com/cryog0at/wtf/cfg"
 	"github.com/olebedev/config"
 	"github.com/rivo/tview"
 	"github.com/stretchr/testify/assert"
-	"github.com/wtfutil/wtf/cfg"
 )
 
 // MakeData - Create sample data

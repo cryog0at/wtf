@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/chzyer/readline"
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/help"
 	goFlags "github.com/jessevdk/go-flags"
 	"github.com/olebedev/config"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/help"
 )
 
 // Flags is the container for command line flag data

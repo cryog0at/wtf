@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 )
 
 func (widget *Widget) display() {

@@ -3,10 +3,10 @@ package docker
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 type Widget struct {

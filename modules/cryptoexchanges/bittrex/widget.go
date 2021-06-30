@@ -7,8 +7,8 @@ import (
 
 	"net/http"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 const (

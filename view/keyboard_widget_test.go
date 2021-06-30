@@ -3,9 +3,9 @@ package view
 import (
 	"testing"
 
+	"github.com/cryog0at/wtf/cfg"
 	"github.com/gdamore/tcell"
 	"github.com/stretchr/testify/assert"
-	"github.com/wtfutil/wtf/cfg"
 )
 
 func test() {}

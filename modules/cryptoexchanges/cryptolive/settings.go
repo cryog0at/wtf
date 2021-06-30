@@ -1,10 +1,10 @@
 package cryptolive
 
 import (
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/modules/cryptoexchanges/cryptolive/price"
+	"github.com/cryog0at/wtf/modules/cryptoexchanges/cryptolive/toplist"
 	"github.com/olebedev/config"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/modules/cryptoexchanges/cryptolive/price"
-	"github.com/wtfutil/wtf/modules/cryptoexchanges/cryptolive/toplist"
 )
 
 const (

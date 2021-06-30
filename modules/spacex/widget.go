@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/cryog0at/wtf/view"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 type Widget struct {

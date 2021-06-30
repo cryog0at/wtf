@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/cryog0at/wtf/modules/cryptoexchanges/cryptolive/price"
+	"github.com/cryog0at/wtf/modules/cryptoexchanges/cryptolive/toplist"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/modules/cryptoexchanges/cryptolive/price"
-	"github.com/wtfutil/wtf/modules/cryptoexchanges/cryptolive/toplist"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget define wtf widget to register widget later

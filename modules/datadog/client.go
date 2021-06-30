@@ -1,7 +1,7 @@
 package datadog
 
 import (
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 	datadog "github.com/zorkian/go-datadog-api"
 )
 

@@ -3,9 +3,9 @@ package finnhub
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget ..

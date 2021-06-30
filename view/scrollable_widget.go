@@ -3,8 +3,8 @@ package view
 import (
 	"strconv"
 
+	"github.com/cryog0at/wtf/cfg"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
 )
 
 type ScrollableWidget struct {

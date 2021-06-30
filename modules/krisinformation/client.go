@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wtfutil/wtf/logger"
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/logger"
+	"github.com/cryog0at/wtf/utils"
 )
 
 const (

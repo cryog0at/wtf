@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/bytefmt"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/mem"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget define wtf widget to register widget later

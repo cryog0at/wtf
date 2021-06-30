@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 )
 
 var rootPage = "https://reddit.com/r/"

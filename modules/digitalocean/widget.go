@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
 	"github.com/digitalocean/godo"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
 	"golang.org/x/oauth2"
 )
 

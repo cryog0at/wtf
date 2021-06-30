@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/logrusorgru/aurora"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 // ModuleValidator is responsible for validating the state of a module's configuration

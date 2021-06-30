@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/cryog0at/wtf/utils"
 	"github.com/hekmon/transmissionrpc"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
 )
 
 func (widget *Widget) display() {

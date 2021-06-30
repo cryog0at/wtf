@@ -3,8 +3,8 @@ package victorops
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget contains text info

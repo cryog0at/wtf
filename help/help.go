@@ -3,9 +3,9 @@ package help
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/app"
+	"github.com/cryog0at/wtf/utils"
 	"github.com/olebedev/config"
-	"github.com/wtfutil/wtf/app"
-	"github.com/wtfutil/wtf/utils"
 )
 
 // Display displays the output of the --help argument

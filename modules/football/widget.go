@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 var leagueID = map[string]leagueInfo{

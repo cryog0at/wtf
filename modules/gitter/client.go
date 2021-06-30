@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 )
 
 func GetMessages(roomId string, numberOfMessages int, apiToken string) ([]Message, error) {

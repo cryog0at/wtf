@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/cryog0at/wtf/utils"
 	ghb "github.com/google/go-github/v32/github"
-	"github.com/wtfutil/wtf/utils"
 	"golang.org/x/oauth2"
 )
 

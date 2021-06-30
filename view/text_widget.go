@@ -3,9 +3,9 @@ package view
 import (
 	"strings"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 // TextWidget defines the data necessary to make a text widget

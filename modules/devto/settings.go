@@ -3,7 +3,7 @@ package devto
 import (
 	"github.com/olebedev/config"
 
-	"github.com/wtfutil/wtf/cfg"
+	"github.com/cryog0at/wtf/cfg"
 )
 
 const (

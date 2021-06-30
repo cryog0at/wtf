@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/utils"
 	"github.com/gdamore/tcell"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/utils"
 )
 
 const helpKeyChar = "/"

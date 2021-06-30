@@ -3,8 +3,8 @@ package covid
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget is the struct that defines this module widget

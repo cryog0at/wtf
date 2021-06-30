@@ -3,9 +3,9 @@ package todo_plus
 import (
 	"log"
 
+	"github.com/cryog0at/wtf/modules/todo_plus/backend"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/modules/todo_plus/backend"
-	"github.com/wtfutil/wtf/view"
 )
 
 // A Widget represents a Todoist widget

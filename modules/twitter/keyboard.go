@@ -1,8 +1,8 @@
 package twitter
 
 import (
+	"github.com/cryog0at/wtf/utils"
 	"github.com/gdamore/tcell"
-	"github.com/wtfutil/wtf/utils"
 )
 
 func (widget *Widget) initializeKeyboardControls() {

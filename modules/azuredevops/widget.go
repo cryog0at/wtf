@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/cryog0at/wtf/view"
 	azr "github.com/microsoft/azure-devops-go-api/azuredevops"
 	azrBuild "github.com/microsoft/azure-devops-go-api/azuredevops/build"
 	"github.com/pkg/errors"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 type Widget struct {

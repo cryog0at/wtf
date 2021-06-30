@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/utils"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/utils"
 )
 
 type Base struct {

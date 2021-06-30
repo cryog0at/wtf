@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/wtfutil/wtf/logger"
+	"github.com/cryog0at/wtf/logger"
 )
 
 // Fetch gets the current oncall users

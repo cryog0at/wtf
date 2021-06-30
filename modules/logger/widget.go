@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
+	log "github.com/cryog0at/wtf/logger"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	log "github.com/wtfutil/wtf/logger"
-	"github.com/wtfutil/wtf/view"
 )
 
 const (

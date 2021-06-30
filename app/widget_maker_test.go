@@ -3,10 +3,10 @@ package app
 import (
 	"testing"
 
+	"github.com/cryog0at/wtf/modules/clocks"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/olebedev/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/wtfutil/wtf/modules/clocks"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 const (

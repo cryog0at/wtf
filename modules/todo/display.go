@@ -3,9 +3,9 @@ package todo
 import (
 	"fmt"
 
+	"github.com/cryog0at/wtf/checklist"
+	"github.com/cryog0at/wtf/utils"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/checklist"
-	"github.com/wtfutil/wtf/utils"
 )
 
 func (widget *Widget) display() {

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/checklist"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/gdamore/tcell"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/checklist"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
-	"github.com/wtfutil/wtf/wtf"
 	"gopkg.in/yaml.v2"
 )
 

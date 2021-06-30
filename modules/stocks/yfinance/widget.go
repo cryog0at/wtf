@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget is the container for your module's data

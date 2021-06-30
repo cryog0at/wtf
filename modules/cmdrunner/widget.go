@@ -10,8 +10,8 @@ import (
 	"sync"
 
 	"github.com/creack/pty"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget contains the data for this widget

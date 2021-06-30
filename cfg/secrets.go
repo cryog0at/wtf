@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/cryog0at/wtf/logger"
 	"github.com/docker/docker-credential-helpers/client"
 	"github.com/docker/docker-credential-helpers/credentials"
 	"github.com/olebedev/config"
-	"github.com/wtfutil/wtf/logger"
 )
 
 type SecretLoadParams struct {

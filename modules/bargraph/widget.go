@@ -10,7 +10,7 @@ import (
 
 	"github.com/rivo/tview"
 
-	"github.com/wtfutil/wtf/view"
+	"github.com/cryog0at/wtf/view"
 )
 
 // Widget define wtf widget to register widget later

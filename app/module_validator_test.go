@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/logrusorgru/aurora"
 	"github.com/olebedev/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 const (

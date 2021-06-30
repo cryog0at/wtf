@@ -1,8 +1,8 @@
 package view
 
 import (
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/utils"
 )
 
 // MultiSourceWidget is a widget that supports displaying data from multiple sources

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wtfutil/wtf/utils"
+	"github.com/cryog0at/wtf/utils"
 )
 
 const osxFirewallCmd = "/usr/libexec/ApplicationFirewall/socketfilterfw"

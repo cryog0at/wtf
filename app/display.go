@@ -1,10 +1,10 @@
 package app
 
 import (
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/olebedev/config"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 // Display is the container for the onscreen representation of a WtfApp

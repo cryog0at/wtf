@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget define wtf widget to register widget later

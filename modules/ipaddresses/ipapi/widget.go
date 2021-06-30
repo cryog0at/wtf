@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"text/template"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget widget struct

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/cryog0at/wtf/wtf"
 	"github.com/olebedev/config"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/wtf"
 )
 
 // FocusState is a custom type that differentiates focusable scopes

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/view"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/view"
 )
 
 type dropletPropertiesTable struct {

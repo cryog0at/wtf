@@ -14,11 +14,11 @@ import (
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/profile"
 
-	"github.com/wtfutil/wtf/app"
-	"github.com/wtfutil/wtf/cfg"
-	"github.com/wtfutil/wtf/flags"
-	"github.com/wtfutil/wtf/utils"
-	"github.com/wtfutil/wtf/wtf"
+	"github.com/cryog0at/wtf/app"
+	"github.com/cryog0at/wtf/cfg"
+	"github.com/cryog0at/wtf/flags"
+	"github.com/cryog0at/wtf/utils"
+	"github.com/cryog0at/wtf/wtf"
 )
 
 var (

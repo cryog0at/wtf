@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/cryog0at/wtf/view"
 	"github.com/hekmon/transmissionrpc"
 	"github.com/rivo/tview"
-	"github.com/wtfutil/wtf/view"
 )
 
 // Widget is the container for transmission data

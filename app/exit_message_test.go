@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wtfutil/wtf/support"
+	"github.com/cryog0at/wtf/support"
 	"gotest.tools/assert"
 )
 

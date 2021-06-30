@@ -3,8 +3,8 @@ package twitter
 import (
 	"os"
 
+	"github.com/cryog0at/wtf/cfg"
 	"github.com/olebedev/config"
-	"github.com/wtfutil/wtf/cfg"
 )
 
 const (
